@@ -1,0 +1,2 @@
+/home/kvmer4/WK/proxy_ip/db_operation.py:130: Warning: Incorrect string value: '\xE5\xAD' for column 'other' at row 1
+  self.cursor.execute(sql)
