@@ -19,9 +19,9 @@ sys.setdefaultencoding('utf8')
 class DataBase :
     # 数据库初始化
     def __init__(self):
-        self.host = '172.26.253.3'
-        self.user = 'root'
-        self.passwd = 'platform'
+        self.host = ''
+        self.user = ''
+        self.passwd = ''
         self.charset = 'utf8'
         self.db_lock = threading.Lock() # 数据库操作锁
 
